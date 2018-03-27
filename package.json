@@ -12,8 +12,8 @@
     "fund-metamask": "truffle exec ./fund-metamask.js",
     "ropsten": "truffle migrate --network ropsten && npm run artifacts && next client",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "next start -p $PORT",
-    "heroku-postbuild": "npm run artifacts && next build"
+    "start": "next start client -p $PORT",
+    "heroku-postbuild": "npm run artifacts && next build client"
   },
   "author": "",
   "license": "ISC",
