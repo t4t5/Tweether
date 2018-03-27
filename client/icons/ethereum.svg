@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="38px" height="61px" viewBox="0 0 38 61" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>ethereum-icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Tweether-Landing" transform="translate(-210.000000, -448.000000)" fill-rule="nonzero" fill="#FFFFFF">
+            <g id="side" transform="translate(1.000000, -2.000000)">
+                <g id="ethereum-icon" transform="translate(209.000000, 450.000000)">
+                    <polygon id="Shape" points="18.4275106 0 18 1.38561874 18 41.5930657 18.4275106 42 38 30.9678495"></polygon>
+                    <polygon id="Shape" fill-opacity="0.738536005" points="19 0 0 30.9677419 19 42 19 22.4845759"></polygon>
+                    <polygon id="Shape" points="19.2308796 45.3198758 19 45.6073647 19 60.3110748 19.2308796 61 38 34"></polygon>
+                    <polygon id="Shape" fill-opacity="0.738536005" points="19 61 19 45.3198758 0 34"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
