@@ -189,22 +189,22 @@
   ],
   "bytecode": "0x60606040526000600555336000806101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff160217905550610955806100586000396000f3006060604052600436106100a4576000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff16806317edf66d146100a9578063317aae1b146100e05780633a2ad5fd146101585780636981fa7d146101985780637cc82f20146101d15780639c675eaa1461024b578063e8d857b0146102a0578063eb4fdc3f1461036e578063ee255c5714610397578063f2fde38b146103ec575b600080fd5b34156100b457600080fd5b6100ca6004808035906020019091905050610425565b6040518082815260200191505060405180910390f35b34156100eb57600080fd5b6101016004808035906020019091905050610449565b6040518080602001828103825283818151815260200191508051906020019060200280838360005b83811015610144578082015181840152602081019050610129565b505050509050019250505060405180910390f35b341561016357600080fd5b61018260048080359060200190919080359060200190919050506104ba565b6040518082815260200191505060405180910390f35b34156101a357600080fd5b6101cf600480803573ffffffffffffffffffffffffffffffffffffffff169060200190919050506104eb565b005b34156101dc57600080fd5b610235600480803590602001909190803590602001908201803590602001908080601f0160208091040260200160405190810160405280939291908181526020018383808284378201915050505050509190505061058a565b6040518082815260200191505060405180910390f35b341561025657600080fd5b61025e6106e3565b604051808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200191505060405180910390f35b34156102ab57600080fd5b6102c16004808035906020019091905050610708565b604051808581526020018060200184815260200183815260200182810382528581815460018160011615610100020316600290048152602001915080546001816001161561010002031660029004801561035c5780601f106103315761010080835404028352916020019161035c565b820191906000526020600020905b81548152906001019060200180831161033f57829003601f168201915b50509550505050505060405180910390f35b341561037957600080fd5b610381610737565b6040518082815260200191505060405180910390f35b34156103a257600080fd5b6103aa610744565b604051808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200191505060405180910390f35b34156103f757600080fd5b610423600480803573ffffffffffffffffffffffffffffffffffffffff1690602001909190505061076a565b005b60048181548110151561043457fe5b90600052602060002090016000915090505481565b610451610844565b600360008381526020019081526020016000208054806020026020016040519081016040528092919081815260200182805480156104ae57602002820191906000526020600020905b81548152602001906001019080831161049a575b50505050509050919050565b6003602052816000526040600020818154811015156104d557fe5b9060005260206000209001600091509150505481565b6000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff1614151561054657600080fd5b80600160006101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff16021790555050565b6000600160009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff161415156105e857600080fd5b600560008154809291906001019190505550608060405190810160405280600554815260200183815260200184815260200142815250600260006005548152602001908152602001600020600082015181600001556020820151816001019080519060200190610659929190610858565b50604082015181600201556060820151816003015590505060036000848152602001908152602001600020805480600101828161069691906108d8565b9160005260206000209001600060055490919091505550600480548060010182816106c191906108d8565b9160005260206000209001600060055490919091505550600554905092915050565b6000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1681565b600260205280600052604060002060009150905080600001549080600101908060020154908060030154905084565b6000600480549050905090565b600160009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1681565b6000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff161415156107c557600080fd5b600073ffffffffffffffffffffffffffffffffffffffff168173ffffffffffffffffffffffffffffffffffffffff161415151561080157600080fd5b806000806101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff16021790555050565b602060405190810160405280600081525090565b828054600181600116156101000203166002900490600052602060002090601f016020900481019282601f1061089957805160ff19168380011785556108c7565b828001600101855582156108c7579182015b828111156108c65782518255916020019190600101906108ab565b5b5090506108d49190610904565b5090565b8154818355818115116108ff578183600052602060002091820191016108fe9190610904565b5b505050565b61092691905b8082111561092257600081600090555060010161090a565b5090565b905600a165627a7a723058207ac0469281704b3713fe5f8677882aeddba954c63209c164c70bf58e41bab8f50029",
   "deployedBytecode": "0x6060604052600436106100a4576000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff16806317edf66d146100a9578063317aae1b146100e05780633a2ad5fd146101585780636981fa7d146101985780637cc82f20146101d15780639c675eaa1461024b578063e8d857b0146102a0578063eb4fdc3f1461036e578063ee255c5714610397578063f2fde38b146103ec575b600080fd5b34156100b457600080fd5b6100ca6004808035906020019091905050610425565b6040518082815260200191505060405180910390f35b34156100eb57600080fd5b6101016004808035906020019091905050610449565b6040518080602001828103825283818151815260200191508051906020019060200280838360005b83811015610144578082015181840152602081019050610129565b505050509050019250505060405180910390f35b341561016357600080fd5b61018260048080359060200190919080359060200190919050506104ba565b6040518082815260200191505060405180910390f35b34156101a357600080fd5b6101cf600480803573ffffffffffffffffffffffffffffffffffffffff169060200190919050506104eb565b005b34156101dc57600080fd5b610235600480803590602001909190803590602001908201803590602001908080601f0160208091040260200160405190810160405280939291908181526020018383808284378201915050505050509190505061058a565b6040518082815260200191505060405180910390f35b341561025657600080fd5b61025e6106e3565b604051808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200191505060405180910390f35b34156102ab57600080fd5b6102c16004808035906020019091905050610708565b604051808581526020018060200184815260200183815260200182810382528581815460018160011615610100020316600290048152602001915080546001816001161561010002031660029004801561035c5780601f106103315761010080835404028352916020019161035c565b820191906000526020600020905b81548152906001019060200180831161033f57829003601f168201915b50509550505050505060405180910390f35b341561037957600080fd5b610381610737565b6040518082815260200191505060405180910390f35b34156103a257600080fd5b6103aa610744565b604051808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200191505060405180910390f35b34156103f757600080fd5b610423600480803573ffffffffffffffffffffffffffffffffffffffff1690602001909190505061076a565b005b60048181548110151561043457fe5b90600052602060002090016000915090505481565b610451610844565b600360008381526020019081526020016000208054806020026020016040519081016040528092919081815260200182805480156104ae57602002820191906000526020600020905b81548152602001906001019080831161049a575b50505050509050919050565b6003602052816000526040600020818154811015156104d557fe5b9060005260206000209001600091509150505481565b6000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff1614151561054657600080fd5b80600160006101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff16021790555050565b6000600160009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff161415156105e857600080fd5b600560008154809291906001019190505550608060405190810160405280600554815260200183815260200184815260200142815250600260006005548152602001908152602001600020600082015181600001556020820151816001019080519060200190610659929190610858565b50604082015181600201556060820151816003015590505060036000848152602001908152602001600020805480600101828161069691906108d8565b9160005260206000209001600060055490919091505550600480548060010182816106c191906108d8565b9160005260206000209001600060055490919091505550600554905092915050565b6000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1681565b600260205280600052604060002060009150905080600001549080600101908060020154908060030154905084565b6000600480549050905090565b600160009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1681565b6000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff161415156107c557600080fd5b600073ffffffffffffffffffffffffffffffffffffffff168173ffffffffffffffffffffffffffffffffffffffff161415151561080157600080fd5b806000806101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff16021790555050565b602060405190810160405280600081525090565b828054600181600116156101000203166002900490600052602060002090601f016020900481019282601f1061089957805160ff19168380011785556108c7565b828001600101855582156108c7579182015b828111156108c65782518255916020019190600101906108ab565b5b5090506108d49190610904565b5090565b8154818355818115116108ff578183600052602060002091820191016108fe9190610904565b5b505050565b61092691905b8082111561092257600081600090555060010161090a565b5090565b905600a165627a7a723058207ac0469281704b3713fe5f8677882aeddba954c63209c164c70bf58e41bab8f50029",
-  "sourceMap": "102:780:2:-;;;370:1;349:22;;150:10:1;138:9;;:22;;;;;;;;;;;;;;;;;;102:780:2;;;;;;",
-  "deployedSourceMap": "102:780:2:-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;232:22;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;671:110;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;23:1:-1;8:100;33:3;30:1;27:2;8:100;;;99:1;94:3;90;84:5;80:1;75:3;71;64:6;52:2;49:1;45:3;40:15;;8:100;;;12:14;3:109;;;;;;;;;;;;;;;;;184:44:2;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;240:113:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;376:291:2;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;77:24:1;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;144:36:2;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;785:94;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;121:29:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;244:134:1;;;;;;;;;;;;;;;;;;;;;;;;;;;;232:22:2;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::o;671:110::-;734:6;;:::i;:::-;755:12;:21;768:7;755:21;;;;;;;;;;;748:28;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;671:110;;;:::o;184:44::-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::o;240:113:0:-;218:9:1;;;;;;;;;;;204:23;;:10;:23;;;196:32;;;;;;;;332:15:0;315:14;;:32;;;;;;;;;;;;;;;;;;240:113;:::o;376:291:2:-;455:4;209:14:0;;;;;;;;;;;195:28;;:10;:28;;;187:37;;;;;;;;467:13:2;;:15;;;;;;;;;;;;;513:41;;;;;;;;;519:13;;513:41;;;;534:5;513:41;;;;541:7;513:41;;;;550:3;513:41;;;489:6;:21;496:13;;489:21;;;;;;;;;;;:65;;;;;;;;;;;;;;;;;;;;;;;;;;;:::i;:::-;;;;;;;;;;;;;;;;;;;;;560:12;:21;573:7;560:21;;;;;;;;;;;:41;;;;;;;;;;;:::i;:::-;;;;;;;;;;587:13;;560:41;;;;;;;607:8;:28;;;;;;;;;;;:::i;:::-;;;;;;;;;;621:13;;607:28;;;;;;;649:13;;642:20;;376:291;;;;:::o;77:24:1:-;;;;;;;;;;;;;:::o;144:36:2:-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::o;785:94::-;829:15;859:8;:15;;;;852:22;;785:94;:::o;121:29:0:-;;;;;;;;;;;;;:::o;244:134:1:-;218:9;;;;;;;;;;;204:23;;:10;:23;;;196:32;;;;;;;;342:1;321:23;;:9;:23;;;;313:32;;;;;;;;364:9;352;;:21;;;;;;;;;;;;;;;;;;244:134;:::o;102:780:2:-;;;;;;;;;;;;;;;:::o;:::-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::i;:::-;;;:::o;:::-;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::i;:::-;;;;;:::o;:::-;;;;;;;;;;;;;;;;;;;;;;;;;;;:::o",
+  "sourceMap": "102:780:8:-;;;370:1;349:22;;150:10:4;138:9;;:22;;;;;;;;;;;;;;;;;;102:780:8;;;;;;",
+  "deployedSourceMap": "102:780:8:-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;232:22;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;671:110;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;23:1:-1;8:100;33:3;30:1;27:2;8:100;;;99:1;94:3;90;84:5;80:1;75:3;71;64:6;52:2;49:1;45:3;40:15;;8:100;;;12:14;3:109;;;;;;;;;;;;;;;;;184:44:8;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;240:113:3;;;;;;;;;;;;;;;;;;;;;;;;;;;;376:291:8;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;77:24:4;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;144:36:8;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;785:94;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;121:29:3;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;244:134:4;;;;;;;;;;;;;;;;;;;;;;;;;;;;232:22:8;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::o;671:110::-;734:6;;:::i;:::-;755:12;:21;768:7;755:21;;;;;;;;;;;748:28;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;671:110;;;:::o;184:44::-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::o;240:113:3:-;218:9:4;;;;;;;;;;;204:23;;:10;:23;;;196:32;;;;;;;;332:15:3;315:14;;:32;;;;;;;;;;;;;;;;;;240:113;:::o;376:291:8:-;455:4;209:14:3;;;;;;;;;;;195:28;;:10;:28;;;187:37;;;;;;;;467:13:8;;:15;;;;;;;;;;;;;513:41;;;;;;;;;519:13;;513:41;;;;534:5;513:41;;;;541:7;513:41;;;;550:3;513:41;;;489:6;:21;496:13;;489:21;;;;;;;;;;;:65;;;;;;;;;;;;;;;;;;;;;;;;;;;:::i;:::-;;;;;;;;;;;;;;;;;;;;;560:12;:21;573:7;560:21;;;;;;;;;;;:41;;;;;;;;;;;:::i;:::-;;;;;;;;;;587:13;;560:41;;;;;;;607:8;:28;;;;;;;;;;;:::i;:::-;;;;;;;;;;621:13;;607:28;;;;;;;649:13;;642:20;;376:291;;;;:::o;77:24:4:-;;;;;;;;;;;;;:::o;144:36:8:-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::o;785:94::-;829:15;859:8;:15;;;;852:22;;785:94;:::o;121:29:3:-;;;;;;;;;;;;;:::o;244:134:4:-;218:9;;;;;;;;;;;204:23;;:10;:23;;;196:32;;;;;;;;342:1;321:23;;:9;:23;;;;313:32;;;;;;;;364:9;352;;:21;;;;;;;;;;;;;;;;;;244:134;:::o;102:780:8:-;;;;;;;;;;;;;;;:::o;:::-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::i;:::-;;;:::o;:::-;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::i;:::-;;;;;:::o;:::-;;;;;;;;;;;;;;;;;;;;;;;;;;;:::o",
   "source": "// contracts/tweets/TweetStorage.sol\n\npragma solidity ^0.4.19;\n\nimport '../helpers/BaseStorage.sol';\n\ncontract TweetStorage is BaseStorage {\n\n  mapping(uint => Tweet) public tweets;\n  mapping (uint => uint[]) public userTweetIds;\n  uint[] public tweetIds;\n  \n  struct Tweet {\n    uint id;\n    string text;\n    uint userId;\n    uint postedAt;\n  }\n\n  uint latestTweetId = 0;\n\n  function createTweet(uint _userId, string _text) public onlyController returns(uint) {\n    latestTweetId++;\n\n    tweets[latestTweetId] = Tweet(latestTweetId, _text, _userId, now);\n    userTweetIds[_userId].push(latestTweetId);\n    tweetIds.push(latestTweetId);\n\n    return latestTweetId;\n  }\n\n  function getTweetIdsFromUser(uint _userId) view public returns(uint[]) {\n    return userTweetIds[_userId];\n  }\n\n  function getNumTweets() view public returns(uint _numTweets) {\n    return tweetIds.length;\n  }\n\n}\n",
   "sourcePath": "/Users/tristan/Desktop/tweether/contracts/tweets/TweetStorage.sol",
   "ast": {
     "absolutePath": "/Users/tristan/Desktop/tweether/contracts/tweets/TweetStorage.sol",
     "exportedSymbols": {
       "TweetStorage": [
-        168
+        484
       ]
     },
-    "id": 169,
+    "id": 485,
     "nodeType": "SourceUnit",
     "nodes": [
       {
-        "id": 77,
+        "id": 393,
         "literals": [
           "solidity",
           "^",
@@ -212,16 +212,16 @@
           ".19"
         ],
         "nodeType": "PragmaDirective",
-        "src": "38:24:2"
+        "src": "38:24:8"
       },
       {
         "absolutePath": "/Users/tristan/Desktop/tweether/contracts/helpers/BaseStorage.sol",
         "file": "../helpers/BaseStorage.sol",
-        "id": 78,
+        "id": 394,
         "nodeType": "ImportDirective",
-        "scope": 169,
-        "sourceUnit": 31,
-        "src": "64:36:2",
+        "scope": 485,
+        "sourceUnit": 162,
+        "src": "64:36:8",
         "symbolAliases": [],
         "unitAlias": ""
       },
@@ -231,77 +231,77 @@
             "arguments": [],
             "baseName": {
               "contractScope": null,
-              "id": 79,
+              "id": 395,
               "name": "BaseStorage",
               "nodeType": "UserDefinedTypeName",
-              "referencedDeclaration": 30,
-              "src": "127:11:2",
+              "referencedDeclaration": 161,
+              "src": "127:11:8",
               "typeDescriptions": {
-                "typeIdentifier": "t_contract$_BaseStorage_$30",
+                "typeIdentifier": "t_contract$_BaseStorage_$161",
                 "typeString": "contract BaseStorage"
               }
             },
-            "id": 80,
+            "id": 396,
             "nodeType": "InheritanceSpecifier",
-            "src": "127:11:2"
+            "src": "127:11:8"
           }
         ],
         "contractDependencies": [
-          30,
-          75
+          161,
+          206
         ],
         "contractKind": "contract",
         "documentation": null,
         "fullyImplemented": true,
-        "id": 168,
+        "id": 484,
         "linearizedBaseContracts": [
-          168,
-          30,
-          75
+          484,
+          161,
+          206
         ],
         "name": "TweetStorage",
         "nodeType": "ContractDefinition",
         "nodes": [
           {
             "constant": false,
-            "id": 84,
+            "id": 400,
             "name": "tweets",
             "nodeType": "VariableDeclaration",
-            "scope": 168,
-            "src": "144:36:2",
+            "scope": 484,
+            "src": "144:36:8",
             "stateVariable": true,
             "storageLocation": "default",
             "typeDescriptions": {
-              "typeIdentifier": "t_mapping$_t_uint256_$_t_struct$_Tweet_$101_storage_$",
+              "typeIdentifier": "t_mapping$_t_uint256_$_t_struct$_Tweet_$417_storage_$",
               "typeString": "mapping(uint256 => struct TweetStorage.Tweet storage ref)"
             },
             "typeName": {
-              "id": 83,
+              "id": 399,
               "keyType": {
-                "id": 81,
+                "id": 397,
                 "name": "uint",
                 "nodeType": "ElementaryTypeName",
-                "src": "152:4:2",
+                "src": "152:4:8",
                 "typeDescriptions": {
                   "typeIdentifier": "t_uint256",
                   "typeString": "uint256"
                 }
               },
               "nodeType": "Mapping",
-              "src": "144:22:2",
+              "src": "144:22:8",
               "typeDescriptions": {
-                "typeIdentifier": "t_mapping$_t_uint256_$_t_struct$_Tweet_$101_storage_$",
+                "typeIdentifier": "t_mapping$_t_uint256_$_t_struct$_Tweet_$417_storage_$",
                 "typeString": "mapping(uint256 => struct TweetStorage.Tweet storage ref)"
               },
               "valueType": {
                 "contractScope": null,
-                "id": 82,
+                "id": 398,
                 "name": "Tweet",
                 "nodeType": "UserDefinedTypeName",
-                "referencedDeclaration": 101,
-                "src": "160:5:2",
+                "referencedDeclaration": 417,
+                "src": "160:5:8",
                 "typeDescriptions": {
-                  "typeIdentifier": "t_struct$_Tweet_$101_storage_ptr",
+                  "typeIdentifier": "t_struct$_Tweet_$417_storage_ptr",
                   "typeString": "struct TweetStorage.Tweet storage pointer"
                 }
               }
@@ -311,11 +311,11 @@
           },
           {
             "constant": false,
-            "id": 89,
+            "id": 405,
             "name": "userTweetIds",
             "nodeType": "VariableDeclaration",
-            "scope": 168,
-            "src": "184:44:2",
+            "scope": 484,
+            "src": "184:44:8",
             "stateVariable": true,
             "storageLocation": "default",
             "typeDescriptions": {
@@ -323,38 +323,38 @@
               "typeString": "mapping(uint256 => uint256[] storage ref)"
             },
             "typeName": {
-              "id": 88,
+              "id": 404,
               "keyType": {
-                "id": 85,
+                "id": 401,
                 "name": "uint",
                 "nodeType": "ElementaryTypeName",
-                "src": "193:4:2",
+                "src": "193:4:8",
                 "typeDescriptions": {
                   "typeIdentifier": "t_uint256",
                   "typeString": "uint256"
                 }
               },
               "nodeType": "Mapping",
-              "src": "184:24:2",
+              "src": "184:24:8",
               "typeDescriptions": {
                 "typeIdentifier": "t_mapping$_t_uint256_$_t_array$_t_uint256_$dyn_storage_$",
                 "typeString": "mapping(uint256 => uint256[] storage ref)"
               },
               "valueType": {
                 "baseType": {
-                  "id": 86,
+                  "id": 402,
                   "name": "uint",
                   "nodeType": "ElementaryTypeName",
-                  "src": "201:4:2",
+                  "src": "201:4:8",
                   "typeDescriptions": {
                     "typeIdentifier": "t_uint256",
                     "typeString": "uint256"
                   }
                 },
-                "id": 87,
+                "id": 403,
                 "length": null,
                 "nodeType": "ArrayTypeName",
-                "src": "201:6:2",
+                "src": "201:6:8",
                 "typeDescriptions": {
                   "typeIdentifier": "t_array$_t_uint256_$dyn_storage_ptr",
                   "typeString": "uint256[] storage pointer"
@@ -366,11 +366,11 @@
           },
           {
             "constant": false,
-            "id": 92,
+            "id": 408,
             "name": "tweetIds",
             "nodeType": "VariableDeclaration",
-            "scope": 168,
-            "src": "232:22:2",
+            "scope": 484,
+            "src": "232:22:8",
             "stateVariable": true,
             "storageLocation": "default",
             "typeDescriptions": {
@@ -379,19 +379,19 @@
             },
             "typeName": {
               "baseType": {
-                "id": 90,
+                "id": 406,
                 "name": "uint",
                 "nodeType": "ElementaryTypeName",
-                "src": "232:4:2",
+                "src": "232:4:8",
                 "typeDescriptions": {
                   "typeIdentifier": "t_uint256",
                   "typeString": "uint256"
                 }
               },
-              "id": 91,
+              "id": 407,
               "length": null,
               "nodeType": "ArrayTypeName",
-              "src": "232:6:2",
+              "src": "232:6:8",
               "typeDescriptions": {
                 "typeIdentifier": "t_array$_t_uint256_$dyn_storage_ptr",
                 "typeString": "uint256[] storage pointer"
@@ -402,15 +402,15 @@
           },
           {
             "canonicalName": "TweetStorage.Tweet",
-            "id": 101,
+            "id": 417,
             "members": [
               {
                 "constant": false,
-                "id": 94,
+                "id": 410,
                 "name": "id",
                 "nodeType": "VariableDeclaration",
-                "scope": 101,
-                "src": "280:7:2",
+                "scope": 417,
+                "src": "280:7:8",
                 "stateVariable": false,
                 "storageLocation": "default",
                 "typeDescriptions": {
@@ -418,10 +418,10 @@
                   "typeString": "uint256"
                 },
                 "typeName": {
-                  "id": 93,
+                  "id": 409,
                   "name": "uint",
                   "nodeType": "ElementaryTypeName",
-                  "src": "280:4:2",
+                  "src": "280:4:8",
                   "typeDescriptions": {
                     "typeIdentifier": "t_uint256",
                     "typeString": "uint256"
@@ -432,11 +432,11 @@
               },
               {
                 "constant": false,
-                "id": 96,
+                "id": 412,
                 "name": "text",
                 "nodeType": "VariableDeclaration",
-                "scope": 101,
-                "src": "293:11:2",
+                "scope": 417,
+                "src": "293:11:8",
                 "stateVariable": false,
                 "storageLocation": "default",
                 "typeDescriptions": {
@@ -444,10 +444,10 @@
                   "typeString": "string storage pointer"
                 },
                 "typeName": {
-                  "id": 95,
+                  "id": 411,
                   "name": "string",
                   "nodeType": "ElementaryTypeName",
-                  "src": "293:6:2",
+                  "src": "293:6:8",
                   "typeDescriptions": {
                     "typeIdentifier": "t_string_storage_ptr",
                     "typeString": "string storage pointer"
@@ -458,11 +458,11 @@
               },
               {
                 "constant": false,
-                "id": 98,
+                "id": 414,
                 "name": "userId",
                 "nodeType": "VariableDeclaration",
-                "scope": 101,
-                "src": "310:11:2",
+                "scope": 417,
+                "src": "310:11:8",
                 "stateVariable": false,
                 "storageLocation": "default",
                 "typeDescriptions": {
@@ -470,10 +470,10 @@
                   "typeString": "uint256"
                 },
                 "typeName": {
-                  "id": 97,
+                  "id": 413,
                   "name": "uint",
                   "nodeType": "ElementaryTypeName",
-                  "src": "310:4:2",
+                  "src": "310:4:8",
                   "typeDescriptions": {
                     "typeIdentifier": "t_uint256",
                     "typeString": "uint256"
@@ -484,11 +484,11 @@
               },
               {
                 "constant": false,
-                "id": 100,
+                "id": 416,
                 "name": "postedAt",
                 "nodeType": "VariableDeclaration",
-                "scope": 101,
-                "src": "327:13:2",
+                "scope": 417,
+                "src": "327:13:8",
                 "stateVariable": false,
                 "storageLocation": "default",
                 "typeDescriptions": {
@@ -496,10 +496,10 @@
                   "typeString": "uint256"
                 },
                 "typeName": {
-                  "id": 99,
+                  "id": 415,
                   "name": "uint",
                   "nodeType": "ElementaryTypeName",
-                  "src": "327:4:2",
+                  "src": "327:4:8",
                   "typeDescriptions": {
                     "typeIdentifier": "t_uint256",
                     "typeString": "uint256"
@@ -511,17 +511,17 @@
             ],
             "name": "Tweet",
             "nodeType": "StructDefinition",
-            "scope": 168,
-            "src": "261:84:2",
+            "scope": 484,
+            "src": "261:84:8",
             "visibility": "public"
           },
           {
             "constant": false,
-            "id": 104,
+            "id": 420,
             "name": "latestTweetId",
             "nodeType": "VariableDeclaration",
-            "scope": 168,
-            "src": "349:22:2",
+            "scope": 484,
+            "src": "349:22:8",
             "stateVariable": true,
             "storageLocation": "default",
             "typeDescriptions": {
@@ -529,10 +529,10 @@
               "typeString": "uint256"
             },
             "typeName": {
-              "id": 102,
+              "id": 418,
               "name": "uint",
               "nodeType": "ElementaryTypeName",
-              "src": "349:4:2",
+              "src": "349:4:8",
               "typeDescriptions": {
                 "typeIdentifier": "t_uint256",
                 "typeString": "uint256"
@@ -541,14 +541,14 @@
             "value": {
               "argumentTypes": null,
               "hexValue": "30",
-              "id": 103,
+              "id": 419,
               "isConstant": false,
               "isLValue": false,
               "isPure": true,
               "kind": "number",
               "lValueRequested": false,
               "nodeType": "Literal",
-              "src": "370:1:2",
+              "src": "370:1:8",
               "subdenomination": null,
               "typeDescriptions": {
                 "typeIdentifier": "t_rational_0_by_1",
@@ -560,14 +560,14 @@
           },
           {
             "body": {
-              "id": 144,
+              "id": 460,
               "nodeType": "Block",
-              "src": "461:206:2",
+              "src": "461:206:8",
               "statements": [
                 {
                   "expression": {
                     "argumentTypes": null,
-                    "id": 116,
+                    "id": 432,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -575,15 +575,15 @@
                     "nodeType": "UnaryOperation",
                     "operator": "++",
                     "prefix": false,
-                    "src": "467:15:2",
+                    "src": "467:15:8",
                     "subExpression": {
                       "argumentTypes": null,
-                      "id": 115,
+                      "id": 431,
                       "name": "latestTweetId",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 104,
-                      "src": "467:13:2",
+                      "referencedDeclaration": 420,
+                      "src": "467:13:8",
                       "typeDescriptions": {
                         "typeIdentifier": "t_uint256",
                         "typeString": "uint256"
@@ -594,14 +594,14 @@
                       "typeString": "uint256"
                     }
                   },
-                  "id": 117,
+                  "id": 433,
                   "nodeType": "ExpressionStatement",
-                  "src": "467:15:2"
+                  "src": "467:15:8"
                 },
                 {
                   "expression": {
                     "argumentTypes": null,
-                    "id": 127,
+                    "id": 443,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -610,26 +610,26 @@
                       "argumentTypes": null,
                       "baseExpression": {
                         "argumentTypes": null,
-                        "id": 118,
+                        "id": 434,
                         "name": "tweets",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 84,
-                        "src": "489:6:2",
+                        "referencedDeclaration": 400,
+                        "src": "489:6:8",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_mapping$_t_uint256_$_t_struct$_Tweet_$101_storage_$",
+                          "typeIdentifier": "t_mapping$_t_uint256_$_t_struct$_Tweet_$417_storage_$",
                           "typeString": "mapping(uint256 => struct TweetStorage.Tweet storage ref)"
                         }
                       },
-                      "id": 120,
+                      "id": 436,
                       "indexExpression": {
                         "argumentTypes": null,
-                        "id": 119,
+                        "id": 435,
                         "name": "latestTweetId",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 104,
-                        "src": "496:13:2",
+                        "referencedDeclaration": 420,
+                        "src": "496:13:8",
                         "typeDescriptions": {
                           "typeIdentifier": "t_uint256",
                           "typeString": "uint256"
@@ -640,9 +640,9 @@
                       "isPure": false,
                       "lValueRequested": true,
                       "nodeType": "IndexAccess",
-                      "src": "489:21:2",
+                      "src": "489:21:8",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_struct$_Tweet_$101_storage",
+                        "typeIdentifier": "t_struct$_Tweet_$417_storage",
                         "typeString": "struct TweetStorage.Tweet storage ref"
                       }
                     },
@@ -653,12 +653,12 @@
                       "arguments": [
                         {
                           "argumentTypes": null,
-                          "id": 122,
+                          "id": 438,
                           "name": "latestTweetId",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 104,
-                          "src": "519:13:2",
+                          "referencedDeclaration": 420,
+                          "src": "519:13:8",
                           "typeDescriptions": {
                             "typeIdentifier": "t_uint256",
                             "typeString": "uint256"
@@ -666,12 +666,12 @@
                         },
                         {
                           "argumentTypes": null,
-                          "id": 123,
+                          "id": 439,
                           "name": "_text",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 108,
-                          "src": "534:5:2",
+                          "referencedDeclaration": 424,
+                          "src": "534:5:8",
                           "typeDescriptions": {
                             "typeIdentifier": "t_string_memory_ptr",
                             "typeString": "string memory"
@@ -679,12 +679,12 @@
                         },
                         {
                           "argumentTypes": null,
-                          "id": 124,
+                          "id": 440,
                           "name": "_userId",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 106,
-                          "src": "541:7:2",
+                          "referencedDeclaration": 422,
+                          "src": "541:7:8",
                           "typeDescriptions": {
                             "typeIdentifier": "t_uint256",
                             "typeString": "uint256"
@@ -692,12 +692,12 @@
                         },
                         {
                           "argumentTypes": null,
-                          "id": 125,
+                          "id": 441,
                           "name": "now",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 182,
-                          "src": "550:3:2",
+                          "referencedDeclaration": 1170,
+                          "src": "550:3:8",
                           "typeDescriptions": {
                             "typeIdentifier": "t_uint256",
                             "typeString": "uint256"
@@ -723,18 +723,18 @@
                             "typeString": "uint256"
                           }
                         ],
-                        "id": 121,
+                        "id": 437,
                         "name": "Tweet",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 101,
-                        "src": "513:5:2",
+                        "referencedDeclaration": 417,
+                        "src": "513:5:8",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_type$_t_struct$_Tweet_$101_storage_ptr_$",
+                          "typeIdentifier": "t_type$_t_struct$_Tweet_$417_storage_ptr_$",
                           "typeString": "type(struct TweetStorage.Tweet storage pointer)"
                         }
                       },
-                      "id": 126,
+                      "id": 442,
                       "isConstant": false,
                       "isLValue": false,
                       "isPure": false,
@@ -742,21 +742,21 @@
                       "lValueRequested": false,
                       "names": [],
                       "nodeType": "FunctionCall",
-                      "src": "513:41:2",
+                      "src": "513:41:8",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_struct$_Tweet_$101_memory",
+                        "typeIdentifier": "t_struct$_Tweet_$417_memory",
                         "typeString": "struct TweetStorage.Tweet memory"
                       }
                     },
-                    "src": "489:65:2",
+                    "src": "489:65:8",
                     "typeDescriptions": {
-                      "typeIdentifier": "t_struct$_Tweet_$101_storage",
+                      "typeIdentifier": "t_struct$_Tweet_$417_storage",
                       "typeString": "struct TweetStorage.Tweet storage ref"
                     }
                   },
-                  "id": 128,
+                  "id": 444,
                   "nodeType": "ExpressionStatement",
-                  "src": "489:65:2"
+                  "src": "489:65:8"
                 },
                 {
                   "expression": {
@@ -764,12 +764,12 @@
                     "arguments": [
                       {
                         "argumentTypes": null,
-                        "id": 133,
+                        "id": 449,
                         "name": "latestTweetId",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 104,
-                        "src": "587:13:2",
+                        "referencedDeclaration": 420,
+                        "src": "587:13:8",
                         "typeDescriptions": {
                           "typeIdentifier": "t_uint256",
                           "typeString": "uint256"
@@ -787,26 +787,26 @@
                         "argumentTypes": null,
                         "baseExpression": {
                           "argumentTypes": null,
-                          "id": 129,
+                          "id": 445,
                           "name": "userTweetIds",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 89,
-                          "src": "560:12:2",
+                          "referencedDeclaration": 405,
+                          "src": "560:12:8",
                           "typeDescriptions": {
                             "typeIdentifier": "t_mapping$_t_uint256_$_t_array$_t_uint256_$dyn_storage_$",
                             "typeString": "mapping(uint256 => uint256[] storage ref)"
                           }
                         },
-                        "id": 131,
+                        "id": 447,
                         "indexExpression": {
                           "argumentTypes": null,
-                          "id": 130,
+                          "id": 446,
                           "name": "_userId",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 106,
-                          "src": "573:7:2",
+                          "referencedDeclaration": 422,
+                          "src": "573:7:8",
                           "typeDescriptions": {
                             "typeIdentifier": "t_uint256",
                             "typeString": "uint256"
@@ -817,13 +817,13 @@
                         "isPure": false,
                         "lValueRequested": false,
                         "nodeType": "IndexAccess",
-                        "src": "560:21:2",
+                        "src": "560:21:8",
                         "typeDescriptions": {
                           "typeIdentifier": "t_array$_t_uint256_$dyn_storage",
                           "typeString": "uint256[] storage ref"
                         }
                       },
-                      "id": 132,
+                      "id": 448,
                       "isConstant": false,
                       "isLValue": false,
                       "isPure": false,
@@ -831,13 +831,13 @@
                       "memberName": "push",
                       "nodeType": "MemberAccess",
                       "referencedDeclaration": null,
-                      "src": "560:26:2",
+                      "src": "560:26:8",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_arraypush_nonpayable$_t_uint256_$returns$_t_uint256_$",
                         "typeString": "function (uint256) returns (uint256)"
                       }
                     },
-                    "id": 134,
+                    "id": 450,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -845,15 +845,15 @@
                     "lValueRequested": false,
                     "names": [],
                     "nodeType": "FunctionCall",
-                    "src": "560:41:2",
+                    "src": "560:41:8",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
                     }
                   },
-                  "id": 135,
+                  "id": 451,
                   "nodeType": "ExpressionStatement",
-                  "src": "560:41:2"
+                  "src": "560:41:8"
                 },
                 {
                   "expression": {
@@ -861,12 +861,12 @@
                     "arguments": [
                       {
                         "argumentTypes": null,
-                        "id": 139,
+                        "id": 455,
                         "name": "latestTweetId",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 104,
-                        "src": "621:13:2",
+                        "referencedDeclaration": 420,
+                        "src": "621:13:8",
                         "typeDescriptions": {
                           "typeIdentifier": "t_uint256",
                           "typeString": "uint256"
@@ -882,18 +882,18 @@
                       ],
                       "expression": {
                         "argumentTypes": null,
-                        "id": 136,
+                        "id": 452,
                         "name": "tweetIds",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 92,
-                        "src": "607:8:2",
+                        "referencedDeclaration": 408,
+                        "src": "607:8:8",
                         "typeDescriptions": {
                           "typeIdentifier": "t_array$_t_uint256_$dyn_storage",
                           "typeString": "uint256[] storage ref"
                         }
                       },
-                      "id": 138,
+                      "id": 454,
                       "isConstant": false,
                       "isLValue": false,
                       "isPure": false,
@@ -901,13 +901,13 @@
                       "memberName": "push",
                       "nodeType": "MemberAccess",
                       "referencedDeclaration": null,
-                      "src": "607:13:2",
+                      "src": "607:13:8",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_arraypush_nonpayable$_t_uint256_$returns$_t_uint256_$",
                         "typeString": "function (uint256) returns (uint256)"
                       }
                     },
-                    "id": 140,
+                    "id": 456,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -915,75 +915,75 @@
                     "lValueRequested": false,
                     "names": [],
                     "nodeType": "FunctionCall",
-                    "src": "607:28:2",
+                    "src": "607:28:8",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
                     }
                   },
-                  "id": 141,
+                  "id": 457,
                   "nodeType": "ExpressionStatement",
-                  "src": "607:28:2"
+                  "src": "607:28:8"
                 },
                 {
                   "expression": {
                     "argumentTypes": null,
-                    "id": 142,
+                    "id": 458,
                     "name": "latestTweetId",
                     "nodeType": "Identifier",
                     "overloadedDeclarations": [],
-                    "referencedDeclaration": 104,
-                    "src": "649:13:2",
+                    "referencedDeclaration": 420,
+                    "src": "649:13:8",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
                     }
                   },
-                  "functionReturnParameters": 114,
-                  "id": 143,
+                  "functionReturnParameters": 430,
+                  "id": 459,
                   "nodeType": "Return",
-                  "src": "642:20:2"
+                  "src": "642:20:8"
                 }
               ]
             },
-            "id": 145,
+            "id": 461,
             "implemented": true,
             "isConstructor": false,
             "isDeclaredConst": false,
             "modifiers": [
               {
                 "arguments": [],
-                "id": 111,
+                "id": 427,
                 "modifierName": {
                   "argumentTypes": null,
-                  "id": 110,
+                  "id": 426,
                   "name": "onlyController",
                   "nodeType": "Identifier",
                   "overloadedDeclarations": [],
-                  "referencedDeclaration": 17,
-                  "src": "432:14:2",
+                  "referencedDeclaration": 148,
+                  "src": "432:14:8",
                   "typeDescriptions": {
                     "typeIdentifier": "t_modifier$__$",
                     "typeString": "modifier ()"
                   }
                 },
                 "nodeType": "ModifierInvocation",
-                "src": "432:14:2"
+                "src": "432:14:8"
               }
             ],
             "name": "createTweet",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 109,
+              "id": 425,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 106,
+                  "id": 422,
                   "name": "_userId",
                   "nodeType": "VariableDeclaration",
-                  "scope": 145,
-                  "src": "397:12:2",
+                  "scope": 461,
+                  "src": "397:12:8",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -991,10 +991,10 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 105,
+                    "id": 421,
                     "name": "uint",
                     "nodeType": "ElementaryTypeName",
-                    "src": "397:4:2",
+                    "src": "397:4:8",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
@@ -1005,11 +1005,11 @@
                 },
                 {
                   "constant": false,
-                  "id": 108,
+                  "id": 424,
                   "name": "_text",
                   "nodeType": "VariableDeclaration",
-                  "scope": 145,
-                  "src": "411:12:2",
+                  "scope": 461,
+                  "src": "411:12:8",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -1017,10 +1017,10 @@
                     "typeString": "string memory"
                   },
                   "typeName": {
-                    "id": 107,
+                    "id": 423,
                     "name": "string",
                     "nodeType": "ElementaryTypeName",
-                    "src": "411:6:2",
+                    "src": "411:6:8",
                     "typeDescriptions": {
                       "typeIdentifier": "t_string_storage_ptr",
                       "typeString": "string storage pointer"
@@ -1030,20 +1030,20 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "396:28:2"
+              "src": "396:28:8"
             },
             "payable": false,
             "returnParameters": {
-              "id": 114,
+              "id": 430,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 113,
+                  "id": 429,
                   "name": "",
                   "nodeType": "VariableDeclaration",
-                  "scope": 145,
-                  "src": "455:4:2",
+                  "scope": 461,
+                  "src": "455:4:8",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -1051,10 +1051,10 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 112,
+                    "id": 428,
                     "name": "uint",
                     "nodeType": "ElementaryTypeName",
-                    "src": "455:4:2",
+                    "src": "455:4:8",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
@@ -1064,45 +1064,45 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "454:6:2"
+              "src": "454:6:8"
             },
-            "scope": 168,
-            "src": "376:291:2",
+            "scope": 484,
+            "src": "376:291:8",
             "stateMutability": "nonpayable",
             "superFunction": null,
             "visibility": "public"
           },
           {
             "body": {
-              "id": 157,
+              "id": 473,
               "nodeType": "Block",
-              "src": "742:39:2",
+              "src": "742:39:8",
               "statements": [
                 {
                   "expression": {
                     "argumentTypes": null,
                     "baseExpression": {
                       "argumentTypes": null,
-                      "id": 153,
+                      "id": 469,
                       "name": "userTweetIds",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 89,
-                      "src": "755:12:2",
+                      "referencedDeclaration": 405,
+                      "src": "755:12:8",
                       "typeDescriptions": {
                         "typeIdentifier": "t_mapping$_t_uint256_$_t_array$_t_uint256_$dyn_storage_$",
                         "typeString": "mapping(uint256 => uint256[] storage ref)"
                       }
                     },
-                    "id": 155,
+                    "id": 471,
                     "indexExpression": {
                       "argumentTypes": null,
-                      "id": 154,
+                      "id": 470,
                       "name": "_userId",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 147,
-                      "src": "768:7:2",
+                      "referencedDeclaration": 463,
+                      "src": "768:7:8",
                       "typeDescriptions": {
                         "typeIdentifier": "t_uint256",
                         "typeString": "uint256"
@@ -1113,20 +1113,20 @@
                     "isPure": false,
                     "lValueRequested": false,
                     "nodeType": "IndexAccess",
-                    "src": "755:21:2",
+                    "src": "755:21:8",
                     "typeDescriptions": {
                       "typeIdentifier": "t_array$_t_uint256_$dyn_storage",
                       "typeString": "uint256[] storage ref"
                     }
                   },
-                  "functionReturnParameters": 152,
-                  "id": 156,
+                  "functionReturnParameters": 468,
+                  "id": 472,
                   "nodeType": "Return",
-                  "src": "748:28:2"
+                  "src": "748:28:8"
                 }
               ]
             },
-            "id": 158,
+            "id": 474,
             "implemented": true,
             "isConstructor": false,
             "isDeclaredConst": true,
@@ -1134,16 +1134,16 @@
             "name": "getTweetIdsFromUser",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 148,
+              "id": 464,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 147,
+                  "id": 463,
                   "name": "_userId",
                   "nodeType": "VariableDeclaration",
-                  "scope": 158,
-                  "src": "700:12:2",
+                  "scope": 474,
+                  "src": "700:12:8",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -1151,10 +1151,10 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 146,
+                    "id": 462,
                     "name": "uint",
                     "nodeType": "ElementaryTypeName",
-                    "src": "700:4:2",
+                    "src": "700:4:8",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
@@ -1164,20 +1164,20 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "699:14:2"
+              "src": "699:14:8"
             },
             "payable": false,
             "returnParameters": {
-              "id": 152,
+              "id": 468,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 151,
+                  "id": 467,
                   "name": "",
                   "nodeType": "VariableDeclaration",
-                  "scope": 158,
-                  "src": "734:6:2",
+                  "scope": 474,
+                  "src": "734:6:8",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -1186,19 +1186,19 @@
                   },
                   "typeName": {
                     "baseType": {
-                      "id": 149,
+                      "id": 465,
                       "name": "uint",
                       "nodeType": "ElementaryTypeName",
-                      "src": "734:4:2",
+                      "src": "734:4:8",
                       "typeDescriptions": {
                         "typeIdentifier": "t_uint256",
                         "typeString": "uint256"
                       }
                     },
-                    "id": 150,
+                    "id": 466,
                     "length": null,
                     "nodeType": "ArrayTypeName",
-                    "src": "734:6:2",
+                    "src": "734:6:8",
                     "typeDescriptions": {
                       "typeIdentifier": "t_array$_t_uint256_$dyn_storage_ptr",
                       "typeString": "uint256[] storage pointer"
@@ -1208,37 +1208,37 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "733:8:2"
+              "src": "733:8:8"
             },
-            "scope": 168,
-            "src": "671:110:2",
+            "scope": 484,
+            "src": "671:110:8",
             "stateMutability": "view",
             "superFunction": null,
             "visibility": "public"
           },
           {
             "body": {
-              "id": 166,
+              "id": 482,
               "nodeType": "Block",
-              "src": "846:33:2",
+              "src": "846:33:8",
               "statements": [
                 {
                   "expression": {
                     "argumentTypes": null,
                     "expression": {
                       "argumentTypes": null,
-                      "id": 163,
+                      "id": 479,
                       "name": "tweetIds",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 92,
-                      "src": "859:8:2",
+                      "referencedDeclaration": 408,
+                      "src": "859:8:8",
                       "typeDescriptions": {
                         "typeIdentifier": "t_array$_t_uint256_$dyn_storage",
                         "typeString": "uint256[] storage ref"
                       }
                     },
-                    "id": 164,
+                    "id": 480,
                     "isConstant": false,
                     "isLValue": true,
                     "isPure": false,
@@ -1246,20 +1246,20 @@
                     "memberName": "length",
                     "nodeType": "MemberAccess",
                     "referencedDeclaration": null,
-                    "src": "859:15:2",
+                    "src": "859:15:8",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
                     }
                   },
-                  "functionReturnParameters": 162,
-                  "id": 165,
+                  "functionReturnParameters": 478,
+                  "id": 481,
                   "nodeType": "Return",
-                  "src": "852:22:2"
+                  "src": "852:22:8"
                 }
               ]
             },
-            "id": 167,
+            "id": 483,
             "implemented": true,
             "isConstructor": false,
             "isDeclaredConst": true,
@@ -1267,23 +1267,23 @@
             "name": "getNumTweets",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 159,
+              "id": 475,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "806:2:2"
+              "src": "806:2:8"
             },
             "payable": false,
             "returnParameters": {
-              "id": 162,
+              "id": 478,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 161,
+                  "id": 477,
                   "name": "_numTweets",
                   "nodeType": "VariableDeclaration",
-                  "scope": 167,
-                  "src": "829:15:2",
+                  "scope": 483,
+                  "src": "829:15:8",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -1291,10 +1291,10 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 160,
+                    "id": 476,
                     "name": "uint",
                     "nodeType": "ElementaryTypeName",
-                    "src": "829:4:2",
+                    "src": "829:4:8",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
@@ -1304,33 +1304,33 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "828:17:2"
+              "src": "828:17:8"
             },
-            "scope": 168,
-            "src": "785:94:2",
+            "scope": 484,
+            "src": "785:94:8",
             "stateMutability": "view",
             "superFunction": null,
             "visibility": "public"
           }
         ],
-        "scope": 169,
-        "src": "102:780:2"
+        "scope": 485,
+        "src": "102:780:8"
       }
     ],
-    "src": "38:845:2"
+    "src": "38:845:8"
   },
   "legacyAST": {
     "absolutePath": "/Users/tristan/Desktop/tweether/contracts/tweets/TweetStorage.sol",
     "exportedSymbols": {
       "TweetStorage": [
-        168
+        484
       ]
     },
-    "id": 169,
+    "id": 485,
     "nodeType": "SourceUnit",
     "nodes": [
       {
-        "id": 77,
+        "id": 393,
         "literals": [
           "solidity",
           "^",
@@ -1338,16 +1338,16 @@
           ".19"
         ],
         "nodeType": "PragmaDirective",
-        "src": "38:24:2"
+        "src": "38:24:8"
       },
       {
         "absolutePath": "/Users/tristan/Desktop/tweether/contracts/helpers/BaseStorage.sol",
         "file": "../helpers/BaseStorage.sol",
-        "id": 78,
+        "id": 394,
         "nodeType": "ImportDirective",
-        "scope": 169,
-        "sourceUnit": 31,
-        "src": "64:36:2",
+        "scope": 485,
+        "sourceUnit": 162,
+        "src": "64:36:8",
         "symbolAliases": [],
         "unitAlias": ""
       },
@@ -1357,77 +1357,77 @@
             "arguments": [],
             "baseName": {
               "contractScope": null,
-              "id": 79,
+              "id": 395,
               "name": "BaseStorage",
               "nodeType": "UserDefinedTypeName",
-              "referencedDeclaration": 30,
-              "src": "127:11:2",
+              "referencedDeclaration": 161,
+              "src": "127:11:8",
               "typeDescriptions": {
-                "typeIdentifier": "t_contract$_BaseStorage_$30",
+                "typeIdentifier": "t_contract$_BaseStorage_$161",
                 "typeString": "contract BaseStorage"
               }
             },
-            "id": 80,
+            "id": 396,
             "nodeType": "InheritanceSpecifier",
-            "src": "127:11:2"
+            "src": "127:11:8"
           }
         ],
         "contractDependencies": [
-          30,
-          75
+          161,
+          206
         ],
         "contractKind": "contract",
         "documentation": null,
         "fullyImplemented": true,
-        "id": 168,
+        "id": 484,
         "linearizedBaseContracts": [
-          168,
-          30,
-          75
+          484,
+          161,
+          206
         ],
         "name": "TweetStorage",
         "nodeType": "ContractDefinition",
         "nodes": [
           {
             "constant": false,
-            "id": 84,
+            "id": 400,
             "name": "tweets",
             "nodeType": "VariableDeclaration",
-            "scope": 168,
-            "src": "144:36:2",
+            "scope": 484,
+            "src": "144:36:8",
             "stateVariable": true,
             "storageLocation": "default",
             "typeDescriptions": {
-              "typeIdentifier": "t_mapping$_t_uint256_$_t_struct$_Tweet_$101_storage_$",
+              "typeIdentifier": "t_mapping$_t_uint256_$_t_struct$_Tweet_$417_storage_$",
               "typeString": "mapping(uint256 => struct TweetStorage.Tweet storage ref)"
             },
             "typeName": {
-              "id": 83,
+              "id": 399,
               "keyType": {
-                "id": 81,
+                "id": 397,
                 "name": "uint",
                 "nodeType": "ElementaryTypeName",
-                "src": "152:4:2",
+                "src": "152:4:8",
                 "typeDescriptions": {
                   "typeIdentifier": "t_uint256",
                   "typeString": "uint256"
                 }
               },
               "nodeType": "Mapping",
-              "src": "144:22:2",
+              "src": "144:22:8",
               "typeDescriptions": {
-                "typeIdentifier": "t_mapping$_t_uint256_$_t_struct$_Tweet_$101_storage_$",
+                "typeIdentifier": "t_mapping$_t_uint256_$_t_struct$_Tweet_$417_storage_$",
                 "typeString": "mapping(uint256 => struct TweetStorage.Tweet storage ref)"
               },
               "valueType": {
                 "contractScope": null,
-                "id": 82,
+                "id": 398,
                 "name": "Tweet",
                 "nodeType": "UserDefinedTypeName",
-                "referencedDeclaration": 101,
-                "src": "160:5:2",
+                "referencedDeclaration": 417,
+                "src": "160:5:8",
                 "typeDescriptions": {
-                  "typeIdentifier": "t_struct$_Tweet_$101_storage_ptr",
+                  "typeIdentifier": "t_struct$_Tweet_$417_storage_ptr",
                   "typeString": "struct TweetStorage.Tweet storage pointer"
                 }
               }
@@ -1437,11 +1437,11 @@
           },
           {
             "constant": false,
-            "id": 89,
+            "id": 405,
             "name": "userTweetIds",
             "nodeType": "VariableDeclaration",
-            "scope": 168,
-            "src": "184:44:2",
+            "scope": 484,
+            "src": "184:44:8",
             "stateVariable": true,
             "storageLocation": "default",
             "typeDescriptions": {
@@ -1449,38 +1449,38 @@
               "typeString": "mapping(uint256 => uint256[] storage ref)"
             },
             "typeName": {
-              "id": 88,
+              "id": 404,
               "keyType": {
-                "id": 85,
+                "id": 401,
                 "name": "uint",
                 "nodeType": "ElementaryTypeName",
-                "src": "193:4:2",
+                "src": "193:4:8",
                 "typeDescriptions": {
                   "typeIdentifier": "t_uint256",
                   "typeString": "uint256"
                 }
               },
               "nodeType": "Mapping",
-              "src": "184:24:2",
+              "src": "184:24:8",
               "typeDescriptions": {
                 "typeIdentifier": "t_mapping$_t_uint256_$_t_array$_t_uint256_$dyn_storage_$",
                 "typeString": "mapping(uint256 => uint256[] storage ref)"
               },
               "valueType": {
                 "baseType": {
-                  "id": 86,
+                  "id": 402,
                   "name": "uint",
                   "nodeType": "ElementaryTypeName",
-                  "src": "201:4:2",
+                  "src": "201:4:8",
                   "typeDescriptions": {
                     "typeIdentifier": "t_uint256",
                     "typeString": "uint256"
                   }
                 },
-                "id": 87,
+                "id": 403,
                 "length": null,
                 "nodeType": "ArrayTypeName",
-                "src": "201:6:2",
+                "src": "201:6:8",
                 "typeDescriptions": {
                   "typeIdentifier": "t_array$_t_uint256_$dyn_storage_ptr",
                   "typeString": "uint256[] storage pointer"
@@ -1492,11 +1492,11 @@
           },
           {
             "constant": false,
-            "id": 92,
+            "id": 408,
             "name": "tweetIds",
             "nodeType": "VariableDeclaration",
-            "scope": 168,
-            "src": "232:22:2",
+            "scope": 484,
+            "src": "232:22:8",
             "stateVariable": true,
             "storageLocation": "default",
             "typeDescriptions": {
@@ -1505,19 +1505,19 @@
             },
             "typeName": {
               "baseType": {
-                "id": 90,
+                "id": 406,
                 "name": "uint",
                 "nodeType": "ElementaryTypeName",
-                "src": "232:4:2",
+                "src": "232:4:8",
                 "typeDescriptions": {
                   "typeIdentifier": "t_uint256",
                   "typeString": "uint256"
                 }
               },
-              "id": 91,
+              "id": 407,
               "length": null,
               "nodeType": "ArrayTypeName",
-              "src": "232:6:2",
+              "src": "232:6:8",
               "typeDescriptions": {
                 "typeIdentifier": "t_array$_t_uint256_$dyn_storage_ptr",
                 "typeString": "uint256[] storage pointer"
@@ -1528,15 +1528,15 @@
           },
           {
             "canonicalName": "TweetStorage.Tweet",
-            "id": 101,
+            "id": 417,
             "members": [
               {
                 "constant": false,
-                "id": 94,
+                "id": 410,
                 "name": "id",
                 "nodeType": "VariableDeclaration",
-                "scope": 101,
-                "src": "280:7:2",
+                "scope": 417,
+                "src": "280:7:8",
                 "stateVariable": false,
                 "storageLocation": "default",
                 "typeDescriptions": {
@@ -1544,10 +1544,10 @@
                   "typeString": "uint256"
                 },
                 "typeName": {
-                  "id": 93,
+                  "id": 409,
                   "name": "uint",
                   "nodeType": "ElementaryTypeName",
-                  "src": "280:4:2",
+                  "src": "280:4:8",
                   "typeDescriptions": {
                     "typeIdentifier": "t_uint256",
                     "typeString": "uint256"
@@ -1558,11 +1558,11 @@
               },
               {
                 "constant": false,
-                "id": 96,
+                "id": 412,
                 "name": "text",
                 "nodeType": "VariableDeclaration",
-                "scope": 101,
-                "src": "293:11:2",
+                "scope": 417,
+                "src": "293:11:8",
                 "stateVariable": false,
                 "storageLocation": "default",
                 "typeDescriptions": {
@@ -1570,10 +1570,10 @@
                   "typeString": "string storage pointer"
                 },
                 "typeName": {
-                  "id": 95,
+                  "id": 411,
                   "name": "string",
                   "nodeType": "ElementaryTypeName",
-                  "src": "293:6:2",
+                  "src": "293:6:8",
                   "typeDescriptions": {
                     "typeIdentifier": "t_string_storage_ptr",
                     "typeString": "string storage pointer"
@@ -1584,11 +1584,11 @@
               },
               {
                 "constant": false,
-                "id": 98,
+                "id": 414,
                 "name": "userId",
                 "nodeType": "VariableDeclaration",
-                "scope": 101,
-                "src": "310:11:2",
+                "scope": 417,
+                "src": "310:11:8",
                 "stateVariable": false,
                 "storageLocation": "default",
                 "typeDescriptions": {
@@ -1596,10 +1596,10 @@
                   "typeString": "uint256"
                 },
                 "typeName": {
-                  "id": 97,
+                  "id": 413,
                   "name": "uint",
                   "nodeType": "ElementaryTypeName",
-                  "src": "310:4:2",
+                  "src": "310:4:8",
                   "typeDescriptions": {
                     "typeIdentifier": "t_uint256",
                     "typeString": "uint256"
@@ -1610,11 +1610,11 @@
               },
               {
                 "constant": false,
-                "id": 100,
+                "id": 416,
                 "name": "postedAt",
                 "nodeType": "VariableDeclaration",
-                "scope": 101,
-                "src": "327:13:2",
+                "scope": 417,
+                "src": "327:13:8",
                 "stateVariable": false,
                 "storageLocation": "default",
                 "typeDescriptions": {
@@ -1622,10 +1622,10 @@
                   "typeString": "uint256"
                 },
                 "typeName": {
-                  "id": 99,
+                  "id": 415,
                   "name": "uint",
                   "nodeType": "ElementaryTypeName",
-                  "src": "327:4:2",
+                  "src": "327:4:8",
                   "typeDescriptions": {
                     "typeIdentifier": "t_uint256",
                     "typeString": "uint256"
@@ -1637,17 +1637,17 @@
             ],
             "name": "Tweet",
             "nodeType": "StructDefinition",
-            "scope": 168,
-            "src": "261:84:2",
+            "scope": 484,
+            "src": "261:84:8",
             "visibility": "public"
           },
           {
             "constant": false,
-            "id": 104,
+            "id": 420,
             "name": "latestTweetId",
             "nodeType": "VariableDeclaration",
-            "scope": 168,
-            "src": "349:22:2",
+            "scope": 484,
+            "src": "349:22:8",
             "stateVariable": true,
             "storageLocation": "default",
             "typeDescriptions": {
@@ -1655,10 +1655,10 @@
               "typeString": "uint256"
             },
             "typeName": {
-              "id": 102,
+              "id": 418,
               "name": "uint",
               "nodeType": "ElementaryTypeName",
-              "src": "349:4:2",
+              "src": "349:4:8",
               "typeDescriptions": {
                 "typeIdentifier": "t_uint256",
                 "typeString": "uint256"
@@ -1667,14 +1667,14 @@
             "value": {
               "argumentTypes": null,
               "hexValue": "30",
-              "id": 103,
+              "id": 419,
               "isConstant": false,
               "isLValue": false,
               "isPure": true,
               "kind": "number",
               "lValueRequested": false,
               "nodeType": "Literal",
-              "src": "370:1:2",
+              "src": "370:1:8",
               "subdenomination": null,
               "typeDescriptions": {
                 "typeIdentifier": "t_rational_0_by_1",
@@ -1686,14 +1686,14 @@
           },
           {
             "body": {
-              "id": 144,
+              "id": 460,
               "nodeType": "Block",
-              "src": "461:206:2",
+              "src": "461:206:8",
               "statements": [
                 {
                   "expression": {
                     "argumentTypes": null,
-                    "id": 116,
+                    "id": 432,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -1701,15 +1701,15 @@
                     "nodeType": "UnaryOperation",
                     "operator": "++",
                     "prefix": false,
-                    "src": "467:15:2",
+                    "src": "467:15:8",
                     "subExpression": {
                       "argumentTypes": null,
-                      "id": 115,
+                      "id": 431,
                       "name": "latestTweetId",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 104,
-                      "src": "467:13:2",
+                      "referencedDeclaration": 420,
+                      "src": "467:13:8",
                       "typeDescriptions": {
                         "typeIdentifier": "t_uint256",
                         "typeString": "uint256"
@@ -1720,14 +1720,14 @@
                       "typeString": "uint256"
                     }
                   },
-                  "id": 117,
+                  "id": 433,
                   "nodeType": "ExpressionStatement",
-                  "src": "467:15:2"
+                  "src": "467:15:8"
                 },
                 {
                   "expression": {
                     "argumentTypes": null,
-                    "id": 127,
+                    "id": 443,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -1736,26 +1736,26 @@
                       "argumentTypes": null,
                       "baseExpression": {
                         "argumentTypes": null,
-                        "id": 118,
+                        "id": 434,
                         "name": "tweets",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 84,
-                        "src": "489:6:2",
+                        "referencedDeclaration": 400,
+                        "src": "489:6:8",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_mapping$_t_uint256_$_t_struct$_Tweet_$101_storage_$",
+                          "typeIdentifier": "t_mapping$_t_uint256_$_t_struct$_Tweet_$417_storage_$",
                           "typeString": "mapping(uint256 => struct TweetStorage.Tweet storage ref)"
                         }
                       },
-                      "id": 120,
+                      "id": 436,
                       "indexExpression": {
                         "argumentTypes": null,
-                        "id": 119,
+                        "id": 435,
                         "name": "latestTweetId",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 104,
-                        "src": "496:13:2",
+                        "referencedDeclaration": 420,
+                        "src": "496:13:8",
                         "typeDescriptions": {
                           "typeIdentifier": "t_uint256",
                           "typeString": "uint256"
@@ -1766,9 +1766,9 @@
                       "isPure": false,
                       "lValueRequested": true,
                       "nodeType": "IndexAccess",
-                      "src": "489:21:2",
+                      "src": "489:21:8",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_struct$_Tweet_$101_storage",
+                        "typeIdentifier": "t_struct$_Tweet_$417_storage",
                         "typeString": "struct TweetStorage.Tweet storage ref"
                       }
                     },
@@ -1779,12 +1779,12 @@
                       "arguments": [
                         {
                           "argumentTypes": null,
-                          "id": 122,
+                          "id": 438,
                           "name": "latestTweetId",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 104,
-                          "src": "519:13:2",
+                          "referencedDeclaration": 420,
+                          "src": "519:13:8",
                           "typeDescriptions": {
                             "typeIdentifier": "t_uint256",
                             "typeString": "uint256"
@@ -1792,12 +1792,12 @@
                         },
                         {
                           "argumentTypes": null,
-                          "id": 123,
+                          "id": 439,
                           "name": "_text",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 108,
-                          "src": "534:5:2",
+                          "referencedDeclaration": 424,
+                          "src": "534:5:8",
                           "typeDescriptions": {
                             "typeIdentifier": "t_string_memory_ptr",
                             "typeString": "string memory"
@@ -1805,12 +1805,12 @@
                         },
                         {
                           "argumentTypes": null,
-                          "id": 124,
+                          "id": 440,
                           "name": "_userId",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 106,
-                          "src": "541:7:2",
+                          "referencedDeclaration": 422,
+                          "src": "541:7:8",
                           "typeDescriptions": {
                             "typeIdentifier": "t_uint256",
                             "typeString": "uint256"
@@ -1818,12 +1818,12 @@
                         },
                         {
                           "argumentTypes": null,
-                          "id": 125,
+                          "id": 441,
                           "name": "now",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 182,
-                          "src": "550:3:2",
+                          "referencedDeclaration": 1170,
+                          "src": "550:3:8",
                           "typeDescriptions": {
                             "typeIdentifier": "t_uint256",
                             "typeString": "uint256"
@@ -1849,18 +1849,18 @@
                             "typeString": "uint256"
                           }
                         ],
-                        "id": 121,
+                        "id": 437,
                         "name": "Tweet",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 101,
-                        "src": "513:5:2",
+                        "referencedDeclaration": 417,
+                        "src": "513:5:8",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_type$_t_struct$_Tweet_$101_storage_ptr_$",
+                          "typeIdentifier": "t_type$_t_struct$_Tweet_$417_storage_ptr_$",
                           "typeString": "type(struct TweetStorage.Tweet storage pointer)"
                         }
                       },
-                      "id": 126,
+                      "id": 442,
                       "isConstant": false,
                       "isLValue": false,
                       "isPure": false,
@@ -1868,21 +1868,21 @@
                       "lValueRequested": false,
                       "names": [],
                       "nodeType": "FunctionCall",
-                      "src": "513:41:2",
+                      "src": "513:41:8",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_struct$_Tweet_$101_memory",
+                        "typeIdentifier": "t_struct$_Tweet_$417_memory",
                         "typeString": "struct TweetStorage.Tweet memory"
                       }
                     },
-                    "src": "489:65:2",
+                    "src": "489:65:8",
                     "typeDescriptions": {
-                      "typeIdentifier": "t_struct$_Tweet_$101_storage",
+                      "typeIdentifier": "t_struct$_Tweet_$417_storage",
                       "typeString": "struct TweetStorage.Tweet storage ref"
                     }
                   },
-                  "id": 128,
+                  "id": 444,
                   "nodeType": "ExpressionStatement",
-                  "src": "489:65:2"
+                  "src": "489:65:8"
                 },
                 {
                   "expression": {
@@ -1890,12 +1890,12 @@
                     "arguments": [
                       {
                         "argumentTypes": null,
-                        "id": 133,
+                        "id": 449,
                         "name": "latestTweetId",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 104,
-                        "src": "587:13:2",
+                        "referencedDeclaration": 420,
+                        "src": "587:13:8",
                         "typeDescriptions": {
                           "typeIdentifier": "t_uint256",
                           "typeString": "uint256"
@@ -1913,26 +1913,26 @@
                         "argumentTypes": null,
                         "baseExpression": {
                           "argumentTypes": null,
-                          "id": 129,
+                          "id": 445,
                           "name": "userTweetIds",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 89,
-                          "src": "560:12:2",
+                          "referencedDeclaration": 405,
+                          "src": "560:12:8",
                           "typeDescriptions": {
                             "typeIdentifier": "t_mapping$_t_uint256_$_t_array$_t_uint256_$dyn_storage_$",
                             "typeString": "mapping(uint256 => uint256[] storage ref)"
                           }
                         },
-                        "id": 131,
+                        "id": 447,
                         "indexExpression": {
                           "argumentTypes": null,
-                          "id": 130,
+                          "id": 446,
                           "name": "_userId",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 106,
-                          "src": "573:7:2",
+                          "referencedDeclaration": 422,
+                          "src": "573:7:8",
                           "typeDescriptions": {
                             "typeIdentifier": "t_uint256",
                             "typeString": "uint256"
@@ -1943,13 +1943,13 @@
                         "isPure": false,
                         "lValueRequested": false,
                         "nodeType": "IndexAccess",
-                        "src": "560:21:2",
+                        "src": "560:21:8",
                         "typeDescriptions": {
                           "typeIdentifier": "t_array$_t_uint256_$dyn_storage",
                           "typeString": "uint256[] storage ref"
                         }
                       },
-                      "id": 132,
+                      "id": 448,
                       "isConstant": false,
                       "isLValue": false,
                       "isPure": false,
@@ -1957,13 +1957,13 @@
                       "memberName": "push",
                       "nodeType": "MemberAccess",
                       "referencedDeclaration": null,
-                      "src": "560:26:2",
+                      "src": "560:26:8",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_arraypush_nonpayable$_t_uint256_$returns$_t_uint256_$",
                         "typeString": "function (uint256) returns (uint256)"
                       }
                     },
-                    "id": 134,
+                    "id": 450,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -1971,15 +1971,15 @@
                     "lValueRequested": false,
                     "names": [],
                     "nodeType": "FunctionCall",
-                    "src": "560:41:2",
+                    "src": "560:41:8",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
                     }
                   },
-                  "id": 135,
+                  "id": 451,
                   "nodeType": "ExpressionStatement",
-                  "src": "560:41:2"
+                  "src": "560:41:8"
                 },
                 {
                   "expression": {
@@ -1987,12 +1987,12 @@
                     "arguments": [
                       {
                         "argumentTypes": null,
-                        "id": 139,
+                        "id": 455,
                         "name": "latestTweetId",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 104,
-                        "src": "621:13:2",
+                        "referencedDeclaration": 420,
+                        "src": "621:13:8",
                         "typeDescriptions": {
                           "typeIdentifier": "t_uint256",
                           "typeString": "uint256"
@@ -2008,18 +2008,18 @@
                       ],
                       "expression": {
                         "argumentTypes": null,
-                        "id": 136,
+                        "id": 452,
                         "name": "tweetIds",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 92,
-                        "src": "607:8:2",
+                        "referencedDeclaration": 408,
+                        "src": "607:8:8",
                         "typeDescriptions": {
                           "typeIdentifier": "t_array$_t_uint256_$dyn_storage",
                           "typeString": "uint256[] storage ref"
                         }
                       },
-                      "id": 138,
+                      "id": 454,
                       "isConstant": false,
                       "isLValue": false,
                       "isPure": false,
@@ -2027,13 +2027,13 @@
                       "memberName": "push",
                       "nodeType": "MemberAccess",
                       "referencedDeclaration": null,
-                      "src": "607:13:2",
+                      "src": "607:13:8",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_arraypush_nonpayable$_t_uint256_$returns$_t_uint256_$",
                         "typeString": "function (uint256) returns (uint256)"
                       }
                     },
-                    "id": 140,
+                    "id": 456,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -2041,75 +2041,75 @@
                     "lValueRequested": false,
                     "names": [],
                     "nodeType": "FunctionCall",
-                    "src": "607:28:2",
+                    "src": "607:28:8",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
                     }
                   },
-                  "id": 141,
+                  "id": 457,
                   "nodeType": "ExpressionStatement",
-                  "src": "607:28:2"
+                  "src": "607:28:8"
                 },
                 {
                   "expression": {
                     "argumentTypes": null,
-                    "id": 142,
+                    "id": 458,
                     "name": "latestTweetId",
                     "nodeType": "Identifier",
                     "overloadedDeclarations": [],
-                    "referencedDeclaration": 104,
-                    "src": "649:13:2",
+                    "referencedDeclaration": 420,
+                    "src": "649:13:8",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
                     }
                   },
-                  "functionReturnParameters": 114,
-                  "id": 143,
+                  "functionReturnParameters": 430,
+                  "id": 459,
                   "nodeType": "Return",
-                  "src": "642:20:2"
+                  "src": "642:20:8"
                 }
               ]
             },
-            "id": 145,
+            "id": 461,
             "implemented": true,
             "isConstructor": false,
             "isDeclaredConst": false,
             "modifiers": [
               {
                 "arguments": [],
-                "id": 111,
+                "id": 427,
                 "modifierName": {
                   "argumentTypes": null,
-                  "id": 110,
+                  "id": 426,
                   "name": "onlyController",
                   "nodeType": "Identifier",
                   "overloadedDeclarations": [],
-                  "referencedDeclaration": 17,
-                  "src": "432:14:2",
+                  "referencedDeclaration": 148,
+                  "src": "432:14:8",
                   "typeDescriptions": {
                     "typeIdentifier": "t_modifier$__$",
                     "typeString": "modifier ()"
                   }
                 },
                 "nodeType": "ModifierInvocation",
-                "src": "432:14:2"
+                "src": "432:14:8"
               }
             ],
             "name": "createTweet",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 109,
+              "id": 425,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 106,
+                  "id": 422,
                   "name": "_userId",
                   "nodeType": "VariableDeclaration",
-                  "scope": 145,
-                  "src": "397:12:2",
+                  "scope": 461,
+                  "src": "397:12:8",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -2117,10 +2117,10 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 105,
+                    "id": 421,
                     "name": "uint",
                     "nodeType": "ElementaryTypeName",
-                    "src": "397:4:2",
+                    "src": "397:4:8",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
@@ -2131,11 +2131,11 @@
                 },
                 {
                   "constant": false,
-                  "id": 108,
+                  "id": 424,
                   "name": "_text",
                   "nodeType": "VariableDeclaration",
-                  "scope": 145,
-                  "src": "411:12:2",
+                  "scope": 461,
+                  "src": "411:12:8",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -2143,10 +2143,10 @@
                     "typeString": "string memory"
                   },
                   "typeName": {
-                    "id": 107,
+                    "id": 423,
                     "name": "string",
                     "nodeType": "ElementaryTypeName",
-                    "src": "411:6:2",
+                    "src": "411:6:8",
                     "typeDescriptions": {
                       "typeIdentifier": "t_string_storage_ptr",
                       "typeString": "string storage pointer"
@@ -2156,20 +2156,20 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "396:28:2"
+              "src": "396:28:8"
             },
             "payable": false,
             "returnParameters": {
-              "id": 114,
+              "id": 430,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 113,
+                  "id": 429,
                   "name": "",
                   "nodeType": "VariableDeclaration",
-                  "scope": 145,
-                  "src": "455:4:2",
+                  "scope": 461,
+                  "src": "455:4:8",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -2177,10 +2177,10 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 112,
+                    "id": 428,
                     "name": "uint",
                     "nodeType": "ElementaryTypeName",
-                    "src": "455:4:2",
+                    "src": "455:4:8",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
@@ -2190,45 +2190,45 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "454:6:2"
+              "src": "454:6:8"
             },
-            "scope": 168,
-            "src": "376:291:2",
+            "scope": 484,
+            "src": "376:291:8",
             "stateMutability": "nonpayable",
             "superFunction": null,
             "visibility": "public"
           },
           {
             "body": {
-              "id": 157,
+              "id": 473,
               "nodeType": "Block",
-              "src": "742:39:2",
+              "src": "742:39:8",
               "statements": [
                 {
                   "expression": {
                     "argumentTypes": null,
                     "baseExpression": {
                       "argumentTypes": null,
-                      "id": 153,
+                      "id": 469,
                       "name": "userTweetIds",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 89,
-                      "src": "755:12:2",
+                      "referencedDeclaration": 405,
+                      "src": "755:12:8",
                       "typeDescriptions": {
                         "typeIdentifier": "t_mapping$_t_uint256_$_t_array$_t_uint256_$dyn_storage_$",
                         "typeString": "mapping(uint256 => uint256[] storage ref)"
                       }
                     },
-                    "id": 155,
+                    "id": 471,
                     "indexExpression": {
                       "argumentTypes": null,
-                      "id": 154,
+                      "id": 470,
                       "name": "_userId",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 147,
-                      "src": "768:7:2",
+                      "referencedDeclaration": 463,
+                      "src": "768:7:8",
                       "typeDescriptions": {
                         "typeIdentifier": "t_uint256",
                         "typeString": "uint256"
@@ -2239,20 +2239,20 @@
                     "isPure": false,
                     "lValueRequested": false,
                     "nodeType": "IndexAccess",
-                    "src": "755:21:2",
+                    "src": "755:21:8",
                     "typeDescriptions": {
                       "typeIdentifier": "t_array$_t_uint256_$dyn_storage",
                       "typeString": "uint256[] storage ref"
                     }
                   },
-                  "functionReturnParameters": 152,
-                  "id": 156,
+                  "functionReturnParameters": 468,
+                  "id": 472,
                   "nodeType": "Return",
-                  "src": "748:28:2"
+                  "src": "748:28:8"
                 }
               ]
             },
-            "id": 158,
+            "id": 474,
             "implemented": true,
             "isConstructor": false,
             "isDeclaredConst": true,
@@ -2260,16 +2260,16 @@
             "name": "getTweetIdsFromUser",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 148,
+              "id": 464,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 147,
+                  "id": 463,
                   "name": "_userId",
                   "nodeType": "VariableDeclaration",
-                  "scope": 158,
-                  "src": "700:12:2",
+                  "scope": 474,
+                  "src": "700:12:8",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -2277,10 +2277,10 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 146,
+                    "id": 462,
                     "name": "uint",
                     "nodeType": "ElementaryTypeName",
-                    "src": "700:4:2",
+                    "src": "700:4:8",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
@@ -2290,20 +2290,20 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "699:14:2"
+              "src": "699:14:8"
             },
             "payable": false,
             "returnParameters": {
-              "id": 152,
+              "id": 468,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 151,
+                  "id": 467,
                   "name": "",
                   "nodeType": "VariableDeclaration",
-                  "scope": 158,
-                  "src": "734:6:2",
+                  "scope": 474,
+                  "src": "734:6:8",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -2312,19 +2312,19 @@
                   },
                   "typeName": {
                     "baseType": {
-                      "id": 149,
+                      "id": 465,
                       "name": "uint",
                       "nodeType": "ElementaryTypeName",
-                      "src": "734:4:2",
+                      "src": "734:4:8",
                       "typeDescriptions": {
                         "typeIdentifier": "t_uint256",
                         "typeString": "uint256"
                       }
                     },
-                    "id": 150,
+                    "id": 466,
                     "length": null,
                     "nodeType": "ArrayTypeName",
-                    "src": "734:6:2",
+                    "src": "734:6:8",
                     "typeDescriptions": {
                       "typeIdentifier": "t_array$_t_uint256_$dyn_storage_ptr",
                       "typeString": "uint256[] storage pointer"
@@ -2334,37 +2334,37 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "733:8:2"
+              "src": "733:8:8"
             },
-            "scope": 168,
-            "src": "671:110:2",
+            "scope": 484,
+            "src": "671:110:8",
             "stateMutability": "view",
             "superFunction": null,
             "visibility": "public"
           },
           {
             "body": {
-              "id": 166,
+              "id": 482,
               "nodeType": "Block",
-              "src": "846:33:2",
+              "src": "846:33:8",
               "statements": [
                 {
                   "expression": {
                     "argumentTypes": null,
                     "expression": {
                       "argumentTypes": null,
-                      "id": 163,
+                      "id": 479,
                       "name": "tweetIds",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 92,
-                      "src": "859:8:2",
+                      "referencedDeclaration": 408,
+                      "src": "859:8:8",
                       "typeDescriptions": {
                         "typeIdentifier": "t_array$_t_uint256_$dyn_storage",
                         "typeString": "uint256[] storage ref"
                       }
                     },
-                    "id": 164,
+                    "id": 480,
                     "isConstant": false,
                     "isLValue": true,
                     "isPure": false,
@@ -2372,20 +2372,20 @@
                     "memberName": "length",
                     "nodeType": "MemberAccess",
                     "referencedDeclaration": null,
-                    "src": "859:15:2",
+                    "src": "859:15:8",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
                     }
                   },
-                  "functionReturnParameters": 162,
-                  "id": 165,
+                  "functionReturnParameters": 478,
+                  "id": 481,
                   "nodeType": "Return",
-                  "src": "852:22:2"
+                  "src": "852:22:8"
                 }
               ]
             },
-            "id": 167,
+            "id": 483,
             "implemented": true,
             "isConstructor": false,
             "isDeclaredConst": true,
@@ -2393,23 +2393,23 @@
             "name": "getNumTweets",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 159,
+              "id": 475,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "806:2:2"
+              "src": "806:2:8"
             },
             "payable": false,
             "returnParameters": {
-              "id": 162,
+              "id": 478,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 161,
+                  "id": 477,
                   "name": "_numTweets",
                   "nodeType": "VariableDeclaration",
-                  "scope": 167,
-                  "src": "829:15:2",
+                  "scope": 483,
+                  "src": "829:15:8",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -2417,10 +2417,10 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 160,
+                    "id": 476,
                     "name": "uint",
                     "nodeType": "ElementaryTypeName",
-                    "src": "829:4:2",
+                    "src": "829:4:8",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
@@ -2430,51 +2430,33 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "828:17:2"
+              "src": "828:17:8"
             },
-            "scope": 168,
-            "src": "785:94:2",
+            "scope": 484,
+            "src": "785:94:8",
             "stateMutability": "view",
             "superFunction": null,
             "visibility": "public"
           }
         ],
-        "scope": 169,
-        "src": "102:780:2"
+        "scope": 485,
+        "src": "102:780:8"
       }
     ],
-    "src": "38:845:2"
+    "src": "38:845:8"
   },
   "compiler": {
     "name": "solc",
     "version": "0.4.19+commit.c4cbbb05.Emscripten.clang"
   },
   "networks": {
-    "3": {
+    "1": {
       "events": {},
       "links": {},
-      "address": "0xc4eb6781d81da943106ae3d4c27279b6b28466b4",
-      "transactionHash": "0x4de8a5f849e04bae7073df298639ab2fe09741786106cd65fb970d2a26b6aa31"
-    },
-    "1520587679590": {
-      "events": {},
-      "links": {},
-      "address": "0x471f65ca6bb5567084999d4aefd11d3e59473726",
-      "transactionHash": "0x8bff2dc2ebc10d9d343cdbc0b9d900592ef021cf9a266edc0c2421dd3ee1f05f"
-    },
-    "1520623594362": {
-      "events": {},
-      "links": {},
-      "address": "0xa7509108841c2d0fca3ca4d07c0c28bf1ee083ea",
-      "transactionHash": "0x8bff2dc2ebc10d9d343cdbc0b9d900592ef021cf9a266edc0c2421dd3ee1f05f"
-    },
-    "1520623903636": {
-      "events": {},
-      "links": {},
-      "address": "0x39761c78d704c5735cf12f3fdf496deee9944904",
-      "transactionHash": "0xccd026a488b81b3ee6d72e63e424b7eb336c4ca49b5414c16daba3f0eb10c9d5"
+      "address": "0x44d5fcfdeaf2f97b4be1281065b10cca65c3da07",
+      "transactionHash": "0x1a9619090f94ef16174235eb69f35a3175b26e8537152baee40eb8779125146f"
     }
   },
   "schemaVersion": "2.0.0",
-  "updatedAt": "2018-03-12T16:03:24.497Z"
+  "updatedAt": "2018-03-27T09:27:05.404Z"
 }
