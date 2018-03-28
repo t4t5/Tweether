@@ -12,7 +12,7 @@
     "fund-metamask": "truffle exec ./fund-metamask.js",
     "ropsten": "truffle migrate --network ropsten && npm run artifacts && node ./server.js",
     "prestart": "npm run artifacts && next build client",
-    "start": "node ./server.js -p $PORT"
+    "start": "NODE_ENV=production node ./server.js -p $PORT"
   },
   "author": "",
   "license": "ISC",
