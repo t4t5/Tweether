@@ -21,6 +21,8 @@ export default class ComposeModal extends React.Component {
 
     let toastId = null
 
+    onClose()
+
     try {
       toastId = toast.info("Your tweet is being posted. This will take a couple of seconds...")
 
@@ -32,7 +34,9 @@ export default class ComposeModal extends React.Component {
         autoClose: 4000,
       })
 
-      onClose()
+      setTimeout(() => {
+        window.location.reload()
+      }, 2000)
     } catch (err) {
       toast.update(toastId, { 
         render: "Sorry, we couldn't post your tweet!",
@@ -57,6 +61,7 @@ export default class ComposeModal extends React.Component {
         <textarea 
           value={text} 
           onChange={this.handleChange} 
+          autoFocus={true}
           maxLength={140}
         />
 

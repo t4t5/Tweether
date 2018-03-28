@@ -13,7 +13,7 @@ export default ({ userInfo, toggleComposeModal }) => {
         <ComposeIcon />
       </button>
 
-      <Link href={`/profile?u=${username}`}>
+      <Link as={`@${username}`} href={`/profile?u=${username}`}>
         <a className="username">
           <Avatar 
             email={gravatarEmail} 

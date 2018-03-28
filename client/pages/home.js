@@ -3,6 +3,7 @@
 import { Page, Center } from "../components/Layout"
 import { getLatestTweetIds, getTweetInfo, loadTweetsFromTweetPromises } from '../web3/tweets'
 
+import Footer from "../components/Footer"
 import TweetList from '../components/TweetList'
 
 export default class HomePage extends React.Component {
@@ -40,6 +41,8 @@ export default class HomePage extends React.Component {
 
           <TweetList tweets={tweets} />
         </Center>
+
+        <Footer solid={true} />
 
         <style jsx>{`
           h2 {

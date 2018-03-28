@@ -5,6 +5,7 @@ import { withRouter } from 'next/router'
 import { Page, Center } from '../components/Layout'
 import Avatar from '../components/Avatar'
 import TweetList from "../components/TweetList"
+import Footer from "../components/Footer"
 
 import { getUserIdFromUsername, getUserInfo } from '../web3/users'
 import { getTweetIdsFromUser, getTweetInfo, loadTweetsFromTweetPromises } from '../web3/tweets'
@@ -84,6 +85,8 @@ class ProfilePage extends React.Component {
           )}
 
         </Center>
+
+        <Footer solid={true} />
 
         <style jsx>{`
           .profile-top {

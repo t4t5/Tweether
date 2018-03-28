@@ -2,14 +2,15 @@
 
 import Button from "./Button"
 import { createUser } from "../web3/users"
+import { toast } from 'react-toastify'
 
-const Input = ({ title, value, onChange }) => (
+const Input = ({ title, value, onChange, autoFocus }) => (
   <div>
     <label>
       {title}
     </label>
 
-    <input value={value} onChange={onChange} />
+    <input value={value} onChange={onChange} autoFocus={autoFocus} />
 
     <style jsx>{`
       div {
@@ -69,20 +70,42 @@ export default class RegistrationForm extends React.Component {
       }
     }
 
+    const { onClose } = this.props
     const { firstName, lastName, username, bio, gravatarEmail } = this.state
 
+    let toastId = null
+
     try {
+      toastId = toast.info("Your account is being created. This will take a couple of seconds...")
+
+      onClose()
+
       // Open the MetaMask modal:
       await createUser(username, firstName, lastName, bio, gravatarEmail)
 
-      alert("Your user has been created!")
+      toast.update(toastId, { 
+        render: "Your user has been created!",
+        type: toast.TYPE.SUCCESS,
+        autoClose: 4000,
+      })
+
+      setTimeout(() => {
+        window.location.reload()
+      }, 2000)
     } catch (err) {
-      alert(`Sorry, we couldn't create your user: ${err}`)
+      console.error(err)
+
+      onClose()
+
+      toast.update(toastId, { 
+        render: "Sorry, we couldn't create your user!",
+        type: toast.TYPE.ERROR,
+        autoClose: 4000,
+      })
     }
   }
 
   render() {
-    const { onClose } = this.props
 
     return (
       <form onSubmit={this.createUser}>
@@ -91,6 +114,7 @@ export default class RegistrationForm extends React.Component {
         </h3>
 
         <Input 
+          autoFocus={true}
           title="First name" 
           onChange={e => this.updateField("firstName", e)} 
         />

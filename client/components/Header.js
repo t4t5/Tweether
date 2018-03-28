@@ -8,7 +8,8 @@ import Nav from "./Nav"
 import Modal from "./Modal"
 import TweetComposer from "./TweetComposer"
 
-import { getLoggedInUserId, getUserInfo } from "../web3/users"
+import { eth } from '../web3/provider'
+import { getLoggedInUserId, getUserInfo, noAccount } from "../web3/users"
 
 export default class Header extends React.Component {
   state = {
@@ -26,6 +27,15 @@ export default class Header extends React.Component {
   }
 
   async componentDidMount() {
+    this.detectMetaMask()
+
+    const hasNoAccounts = await noAccount()
+    if (hasNoAccounts) return
+
+    this.getUserInfo()
+  }
+
+  async getUserInfo() {
     const userId = await getLoggedInUserId() 
 
     try {
@@ -40,13 +50,34 @@ export default class Header extends React.Component {
     }
   }
 
+  async detectMetaMask() {
+    const { loggedIn } = this.state
+
+    if (loggedIn) return
+
+    const interval = setInterval(async () => {
+      const addresses = await eth.getAccounts()
+      const account = addresses[0]
+
+      if (account) {
+        this.getUserInfo()
+        clearInterval(interval)
+      } else {
+        this.setState({
+          loggedIn: false,
+        })
+      }
+    }, 1000);
+  }
+
   render() {
     const { loggedIn, userInfo, showComposeModal } = this.state
+    const homeURL = loggedIn ? "/home" : "/"
 
     return (
       <header>
         <Center>
-          <Link href="/">
+          <Link href={homeURL}>
             <a className="logotype">
               <Logotype />
             </a>

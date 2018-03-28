@@ -35,8 +35,8 @@ export const Page = ({ children }) => (
   </div>
 )
 
-export const Center = ({ children, style }) => (
-  <div style={style}>
+export const Center = ({ children, style, verticalCenter }) => (
+  <div style={style} data-vertical={verticalCenter}>
     {children}
 
     <style jsx>{`
@@ -44,6 +44,15 @@ export const Center = ({ children, style }) => (
         max-width: 1000px;
         margin: 0 auto;
         padding: 20px;
+      }
+      @media (min-height: 500px) {
+        div[data-vertical="true"] {
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translateX(-50%) translateY(-50%);
+          min-width: 1000px;
+        }
       }
     `}</style>
   </div>

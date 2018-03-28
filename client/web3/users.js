@@ -13,10 +13,22 @@ import { eth, getInstance } from './provider'
 import UserStorage from "./artifacts/UserStorage.json"
 import UserController from "./artifacts/UserController.json"
 
+export const noAccount = async () => {
+  const noWeb3 = (typeof web3 === "undefined")
+
+  if (noWeb3) return true
+
+  const addresses = await eth.getAccounts()
+  const noAccounts = (addresses.length === 0)
+
+  return noAccounts
+}
+
+
 export const getLoggedInUserId = async () => {
   const addresses = await eth.getAccounts()
 
-  if (!addresses) return
+  if (!addresses || !addresses.length) return
 
   const storage = await getInstance(UserStorage)
   const userId = await storage.addresses.call(addresses[0])

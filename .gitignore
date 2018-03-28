@@ -1,4 +1,7 @@
 node_modules
 *.DS_Store
 
+build
+client/web3/artifacts
+.next
 client/.next/

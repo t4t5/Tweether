@@ -37,7 +37,7 @@ export const getTweetIdsFromUser = async (userId) => {
   const storage = await getInstance(TweetStorage)
   const tweetIds = await storage.getTweetIdsFromUser.call(userId)
 
-  return tweetIds.map(tweetId => parseInt(tweetId))
+  return tweetIds.reverse().map(tweetId => parseInt(tweetId))
 }
 
 export const loadTweetsFromTweetPromises = async (tweetPromises) => {
