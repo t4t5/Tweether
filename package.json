@@ -11,7 +11,7 @@
     "artifacts": "cp -r ./build/contracts/ ./client/web3/artifacts",
     "fund-metamask": "truffle exec ./fund-metamask.js",
     "ropsten": "truffle migrate --network ropsten && npm run artifacts && node ./server.js",
-    "prestart": "npm run artifacts",
+    "prestart": "npm run artifacts && next build client",
     "start": "NODE_ENV=production node ./server.js -p $PORT"
   },
   "author": "",
