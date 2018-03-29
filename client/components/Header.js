@@ -1,9 +1,11 @@
 // client/components/Header.js
 
 import Link from "next/link"
+import Head from "next/head"
 
 import { Center } from "./Layout"
 import Logotype from "../icons/logotype.svg"
+import Logomark from "./Logomark"
 import Nav from "./Nav"
 import Modal from "./Modal"
 import TweetComposer from "./TweetComposer"
@@ -26,7 +28,18 @@ export default class Header extends React.Component {
     })
   }
 
+  fixMobile() {
+    if ('ontouchstart' in document.documentElement) {
+      // Allow clickOutide:
+      document.body.style.cursor = 'pointer';
+
+      // Allow :active styles on mobile devices:
+      document.addEventListener("touchstart", function(){}, true);
+    }
+  }
+
   async componentDidMount() {
+    this.fixMobile()
     this.detectMetaMask()
 
     const hasNoAccounts = await noAccount()
@@ -76,10 +89,18 @@ export default class Header extends React.Component {
 
     return (
       <header>
+        <Head>
+          <meta 
+            name="viewport" 
+            content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" 
+          />
+        </Head>
+
         <Center>
           <Link href={homeURL}>
-            <a className="logotype">
-              <Logotype />
+            <a>
+              <Logotype className="logotype" />
+              <Logomark />
             </a>
           </Link>
 
@@ -108,6 +129,18 @@ export default class Header extends React.Component {
             left: 0;
             right: 0;
             z-index: 100;
+          }
+          header :global(.logomark) {
+            display: none;
+          }
+
+          @media (max-width: 700px) {
+            header :global(.logomark) {
+              display: block;
+            }
+            header :global(.logotype) {
+              display: none;
+            }
           }
         `}</style>
       </header>

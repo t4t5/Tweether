@@ -21,7 +21,7 @@ export default ({ userInfo, toggleComposeModal }) => {
               marginBottom: -2,
             }} 
           />
-          <span>
+          <span className="name-only">
             {firstName} {lastName}
           </span>
         </a>
@@ -65,6 +65,12 @@ export default ({ userInfo, toggleComposeModal }) => {
         }
         nav :global(svg) {
           margin-bottom: -2px;
+        }
+
+        @media (max-width: 500px) {
+          .username .name-only {
+            display: none;
+          }
         }
       `}</style>
     </nav>

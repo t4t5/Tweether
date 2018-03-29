@@ -27,7 +27,8 @@ export default ({ solid }) => (
         color: #79cdff;
         text-decoration: none;
       }
-      footer a:hover {
+      footer[data-solid="true"] a:hover,
+      footer:not([data-solid="true"]) a:hover {
         text-decoration: underline;
       }
 
@@ -47,8 +48,29 @@ export default ({ solid }) => (
         text-decoration: none;
       }
 
-      @media (max-height: 500px) {
+      @media (max-width: 700px) {
         footer {
+          width: auto;
+        }
+        footer:not([data-solid]) {
+          width: auto;
+          left: 20px;
+          right: 20px;
+          transform: none;
+        }
+      }
+
+      @media (max-height: 500px) {
+        footer:not([data-solid]) {
+          display: none;
+        }
+      }
+
+      @media (max-width: 500px) {
+        footer {
+          font-size: 14px;
+        }
+        footer:not([data-solid]) {
           display: none;
         }
       }

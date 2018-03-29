@@ -21,6 +21,7 @@
     "express": "^4.16.3",
     "gravatar-url": "^2.0.0",
     "next": "^5.0.0",
+    "nprogress": "^0.2.0",
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
     "react-moment": "^0.7.0",

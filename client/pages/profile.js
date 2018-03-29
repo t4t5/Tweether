@@ -60,6 +60,13 @@ class ProfilePage extends React.Component {
           {username && (
             <div>
               <div className="profile-top">
+                <div className="avatar-container">
+                  <Avatar 
+                    size={AVATAR_SIZE} 
+                    email={gravatarEmail}
+                  />
+                </div>
+
                 <div className="info">
                   <h1>
                     {firstName} {lastName}
@@ -71,10 +78,6 @@ class ProfilePage extends React.Component {
                     {bio}
                   </p>
                 </div>
-                <Avatar 
-                  size={AVATAR_SIZE} 
-                  email={gravatarEmail}
-                />
               </div>
 
               <h2>
@@ -112,10 +115,28 @@ class ProfilePage extends React.Component {
             margin-top: 22px;
           }
 
+          .avatar-container {
+            float: right;
+          }
+
           h2 {
             font-size: 18px;
             font-weight: 600;
             margin-top: 70px;
+          }
+
+          @media (max-width: 500px) {
+            .profile-top {
+              text-align: center;
+            }
+            .avatar-container {
+              float: none;
+              text-align: center;
+              margin-bottom: 30px;
+            }
+            .info {
+              width: auto;
+            }
           }
         `}</style>
 

@@ -76,6 +76,23 @@ export default ({ tweet }) => {
           font-size: 16px;
           color: rgba(68,68,72,0.45);
         }
+
+        @media (max-width: 400px) {
+          .tweet {
+            padding: 14px;
+          }
+          .tweet :global(.avatar) {
+            width: 34px;
+            height: 34px;
+          }
+          a {
+            font-size: 15px;
+          }
+          p,
+          time {
+            font-size: 15px;
+          }
+        }
       `}</style>
     </div>
   )

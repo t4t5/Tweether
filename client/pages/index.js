@@ -184,6 +184,7 @@ export default class IndexPage extends React.Component {
             color: #FFFFFF;
             line-height: 78px;
             position: relative;
+            overflow: hidden;
             text-transform: uppercase;
             max-width: 520px;
             display: inline-block;
@@ -211,6 +212,35 @@ export default class IndexPage extends React.Component {
             line-height: 23px;
             font-weight: 400;
             margin-top: 23px;
+          }
+
+          @media (max-width: 950px) {
+            h2 {
+              display: block;
+              max-width: none;
+              text-align: center;
+            }
+            .right-side {
+              float: none;
+              max-width: none;
+              margin-top: 50px;
+            }
+          }
+
+          @media (max-width: 900px) {
+            h2 {
+              font-size: 40px;
+            }
+          }
+
+          @media (max-width: 600px) {
+            h2 {
+              font-size: 36px;
+              line-height: 55px;
+            }
+            .right-side :global(p) {
+              margin-top: 13px;
+            }
           }
         `}</style>
       </Page>
