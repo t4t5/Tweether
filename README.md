@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="http://tweether.io">
+  <a href="http://www.tweether.io">
     <img alt="Tweether" src="https://user-images.githubusercontent.com/2598660/39965658-a1ac4cfa-569d-11e8-8221-01cfecec45a7.png" width="350">
   </a>
 </p>
@@ -10,7 +10,7 @@
 
 ---
 
-Check out the deployed Heroku-version of this app at [tweether.io](http://tweether.io) (the initial page load might be slow since it's hosted on a free tier)
+Check out the deployed Heroku-version of this app at [tweether.io](http://www.tweether.io) (the initial page load might be slow since it's hosted on a free tier)
 
 ## Running locally
 
