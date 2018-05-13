@@ -29,3 +29,7 @@ npm run dev
 ## Usage
 
 All the data is stored on the Ethereum blockchain, which means that signing up and posting tweets costs a small amount of ether. This is probably not something that people would be willing to pay for in the near future, but serves as a proof-of-concept.
+
+## Learn how to create DApps like this
+
+Check out my online course [Discover Ethereum & Solidity](https://www.ludu.co/course/ethereum) on Ludu to learn how to build Tweether from scratch, as well as how to build complete Dapps with Solidity, Truffle and modern frontend frameworks like Next.js.
