@@ -10,7 +10,7 @@
 
 ---
 
-Check out the deployed Heroku-version of this app at http://tweether.io (the initial page load might be slow since it's hosted on a free tier)
+Check out the deployed Heroku-version of this app at [tweether.io](http://tweether.io) (the initial page load might be slow since it's hosted on a free tier)
 
 ## Running locally
 
